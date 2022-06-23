@@ -10,4 +10,7 @@ age = 0
 sex = 1
 blood_pressure = 3
 
-print(diabetes.DESCR)
+#print(diabetes.DESCR) #Text information about this dataset
+
+print(X.shape) #Contains 442 samples (rows) of 10 features (columns)
+print(Y.shape)
