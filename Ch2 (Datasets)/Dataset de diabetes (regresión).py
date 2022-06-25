@@ -12,7 +12,8 @@ blood_pressure = 3
 
 #print(diabetes.DESCR) #Text information about this dataset
 
-print(X.shape) #Contains 442 samples (rows) of 10 features (columns)
-print(Y.shape) #Adequate for Regreession. The target are numbers
+print(X.shape)         #Contains 442 samples (rows) of 10 features (columns)
+print(Y.shape)         #Adequate for Regreession. The target are numbers
 
-print(X[0:5, :]) #Print rows of data, starting from 0 to 4
+print(X[0:5, :])       #Print rows of data, starting from 0 to 4
+print(Y[0:5])          #Print rows of target data, starting from 0 to 4
