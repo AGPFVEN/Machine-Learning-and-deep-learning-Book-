@@ -1,6 +1,10 @@
+from cProfile import label
 from sklearn.datasets import load_diabetes
 import matplotlib.pyplot as plt
 
+"""
+Loading data
+"""
 diabetes = load_diabetes()
 
 X = diabetes.data
@@ -25,4 +29,11 @@ print(X[1:3, age])     #Print age of second and third samples (first column)
 #print(diabetes.data.shape[0])
 
 x = range(0, diabetes.data.shape[0], 1)
-#Plot of several data
+
+"""
+Plot some features
+"""
+plt.figure(figsize=(30,8))
+plt.plot(x, X[:, mass_index], "y-", label="Mass Index")
+
+plt.show()
