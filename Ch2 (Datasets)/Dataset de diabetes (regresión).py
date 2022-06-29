@@ -20,4 +20,9 @@ print(X[0:5, :])       #Print rows of data, starting from 0 to 4
 print(Y[0:5])          #Print rows of target data, starting from 0 to 4
 
 print(X[1, mass_index])#Print mass index (third column)
-print(X[1:3, age])       #Print age of second and third samples (first column)
+print(X[1:3, age])     #Print age of second and third samples (first column)
+
+#print(diabetes.data.shape[0])
+
+x = range(0, diabetes.data.shape[0], 1)
+#Plot of several data
